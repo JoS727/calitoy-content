@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - Calitoy Content</title>
+  <meta name="description" content="Submit your project brief to Calitoy Content. Tell us about your goals and we will be in touch within 24 hours.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/png" href="assets/calitoy-content-logo.png">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <nav class="nav">
+      <a href="index.html" class="nav-logo">
+        <img src="assets/calitoy-content-logo.png" alt="Calitoy Content">
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="pricing.html">Pricing</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html" class="nav-cta active">Start Now</a></li>
+      </ul>
+      <button class="hamburger" aria-label="Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </nav>
+  </header>
+
+  <div class="mobile-nav">
+    <a href="index.html">Home</a>
+    <a href="services.html">Services</a>
+    <a href="pricing.html">Pricing</a>
+    <a href="about.html">About</a>
+    <a href="contact.html" class="nav-cta">Start Now</a>
+  </div>
+
+  <!-- PAGE HEADER -->
+  <section class="page-header">
+    <div class="container">
+      <h1>Submit Your <span class="accent">Brief</span></h1>
+      <p class="subtitle">Tell us about your project. We will review and respond within 24 hours.</p>
+    </div>
+  </section>
+
+  <!-- FORM -->
+  <section class="section">
+    <div class="container">
+      <div class="form-section">
+        <div id="form-message" class="form-message"></div>
+        <form id="intake-form">
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" placeholder="Jane Doe" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="jane@example.com" required>
+          </div>
+          <div class="form-group">
+            <label for="company">Company Name</label>
+            <input type="text" id="company" name="company" placeholder="Your Company">
+          </div>
+          <div class="form-group">
+            <label for="project_type">Project Type</label>
+            <select id="project_type" name="project_type" required>
+              <option value="">Select a project type</option>
+              <option value="strategy-session">Content Strategy Session</option>
+              <option value="brand-story">Brand Story Package</option>
+              <option value="monthly-retainer">Monthly Content Retainer</option>
+              <option value="launch-campaign">Launch Campaign Package</option>
+              <option value="full-partnership">Full Content Partnership</option>
+              <option value="custom">Custom / Not Sure</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="budget">Monthly Budget</label>
+            <select id="budget" name="budget" required>
+              <option value="">Select a budget range</option>
+              <option value="under-1000">Under $1,000</option>
+              <option value="1000-2500">$1,000 - $2,500</option>
+              <option value="2500-5000">$2,500 - $5,000</option>
+              <option value="5000-10000">$5,000 - $10,000</option>
+              <option value="10000-25000">$10,000 - $25,000</option>
+              <option value="25000+">$25,000+</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Tell Us About Your Project</label>
+            <textarea id="message" name="message" placeholder="What are you launching? What is your audience? What is your goal? The more detail, the better." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-gold btn-large btn-full">Submit Brief</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHAT HAPPENS NEXT -->
+  <section class="section bg-elevated">
+    <div class="container">
+      <div class="text-center">
+        <h2>What Happens <span class="text-gold">Next</span></h2>
+        <div class="divider"></div>
+      </div>
+      <div style="max-width: 700px; margin: 48px auto 0;">
+        <div class="step">
+          <div class="step-number">1</div>
+          <div class="step-content">
+            <h3>We Review Your Brief</h3>
+            <p>Our team reviews your submission within 24 hours to understand your goals and scope.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-number">2</div>
+          <div class="step-content">
+            <h3>Discovery Call</h3>
+            <p>We schedule a short call to ask questions, align on scope, and make sure we are the right fit.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-number">3</div>
+          <div class="step-content">
+            <h3>Proposal and Onboarding</h3>
+            <p>You receive a detailed proposal with timeline and deliverables. Once approved, we get to work.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-number">4</div>
+          <div class="step-content">
+            <h3>Content Production Begins</h3>
+            <p>Our team starts producing premium content aligned with your strategy and goals.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-section">
+    <div class="container">
+      <h2>Prefer to <span class="accent">Browse First?</span></h2>
+      <p>Check out our services and pricing before submitting a brief.</p>
+      <div class="hero-cta-group">
+        <a href="services.html" class="btn btn-gold btn-large">View Services</a>
+        <a href="pricing.html" class="btn btn-outline btn-large">View Pricing</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="assets/calitoy-content-logo.png" alt="Calitoy Content">
+          <p>Premium content production for entrepreneurs who refuse to blend in. Strategy, storytelling, and campaigns that convert.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="services.html#strategy">Content Strategy</a></li>
+            <li><a href="services.html#brand-story">Brand Storytelling</a></li>
+            <li><a href="services.html#retainer">Monthly Retainer</a></li>
+            <li><a href="services.html#campaigns">Launch Campaigns</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Get Started</h4>
+          <ul>
+            <li><a href="contact.html">Submit a Brief</a></li>
+            <li><a href="pricing.html">View Pricing</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-network">
+        <p>Calitoy Network</p>
+        <div class="footer-network-links">
+          <a href="https://calitoy.com">calitoy.com</a>
+          <a href="https://calitoycore.com">calitoycore.com</a>
+          <a href="https://calitoymuse.com">calitoymuse.com</a>
+          <a href="https://kurced.com">kurced.com</a>
+          <a href="https://xcalitoy.com">xcalitoy.com</a>
+          <a href="https://jeremydeanmusic.com">jeremydeanmusic.com</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Calitoy Content. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
