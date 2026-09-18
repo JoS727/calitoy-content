@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Starter Content Engine (Monthly)",
+    "price": "$499/mo",
+    "product_id": "prod_content_starter",
+    "price_id": ""
+  },
+  {
+    "name": "Growth Content Engine (Monthly)",
+    "price": "$1,499/mo",
+    "product_id": "prod_content_growth",
+    "price_id": ""
+  },
+  {
+    "name": "Agency Content Engine (Monthly)",
+    "price": "$3,999/mo",
+    "product_id": "prod_content_agency",
+    "price_id": ""
+  },
+  {
+    "name": "Blog Content Pack (One-time)",
+    "price": "$299",
+    "product_id": "prod_content_blogpack",
+    "price_id": ""
+  },
+  {
+    "name": "Social Media Pack (One-time)",
+    "price": "$249",
+    "product_id": "prod_content_socialpack",
+    "price_id": ""
+  },
+  {
+    "name": "Brand Storytelling Package (One-time)",
+    "price": "$899",
+    "product_id": "prod_content_brandstory",
+    "price_id": ""
+  }
+]
